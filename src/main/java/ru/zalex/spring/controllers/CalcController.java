@@ -34,7 +34,7 @@ public class CalcController {
                 result = 0;
         }
 
-        model.addAttribute("result", " " + a + action + b + " = " + result);
+        model.addAttribute("result", a + action + b + " = " + result);
 
         return "calc/calc";
     }
