@@ -1,0 +1,4 @@
+-- insert into person values (1, 'Tom', 18, 'tom@mail.ru');
+insert into person values (2, 'Bob', 28, 'bob@mail.ru');
+insert into person values (3, 'Tom22', 38, 'tom22@mail.ru');
+insert into person values (4, 'Tom333', 48, 'tom333@mail.ru');

@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ru.zalex.spring</groupId>
-  <artifactId>spring-mvc-app1</artifactId>
+  <artifactId>spring-mvc-app</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -22,6 +22,12 @@
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.2.18</version>
+    </dependency>
 
     <dependency>
       <groupId>org.hibernate.validator</groupId>
